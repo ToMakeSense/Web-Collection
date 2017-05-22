@@ -1,6 +1,9 @@
-div:empty, span:empty,
-li:empty, p:empty,
-td:empty, th:empty {padding: 0.5em; background: yellow;}
+div:empty, 
+span:empty,
+li:empty, 
+p:empty,
+td:empty, 
+th:empty {padding: 0.5em; background: yellow;}
 
 *[style], font, center {outline: 5px solid red;}
 *[class=""], *[id=""] {outline: 5px dotted red;}
