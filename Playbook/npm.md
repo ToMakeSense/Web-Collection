@@ -15,7 +15,7 @@
 
 	--Creating a Package.json
 	npm init
-	// quick create with default setting
+	//quick create with default setting
 	npm init -y
 
 	--Setting in Package.json
@@ -23,13 +23,14 @@
 	npm get XXX
 	npm config delete XXX
 
-	--install, list, uninstall, remove and update
+	--Install、List、Uninstall and Update
 	npm install XXX
 	npm install XXX@version
 	npm install XXX --save(-s)
-	// devDependencies
+	//devDependencies
 	npm install XXX --save-dev(-D)
-
+	npm install underscore -global
+	
 	npm list
 	npm list --depth 0
 	npm list --global true
@@ -40,20 +41,17 @@
 	npm list --depth 0 --dev true
 	npm list --depth 0 --prod true
 
-	npm install underscore -global
-
 	npm uninstall underscore
 	npm uninstall underscore --save
 
-
-	// ^(latest version of major release)
-	// ~(latest version of minor release)
+	//^(latest version of major release)
+	//~(latest version of minor release)
 	npm install underscore@1.8.X
 	npm install underscore@1.8
 
 	npm install underscore@">=1.1.0 <1.4.0"
 
-	// will not auto upgrade
+	//will not auto upgrade
 	npm install underscore@1.8.2 --save --save-exact
 
 	npm update
@@ -73,9 +71,9 @@
 	npm install path
 	npm install path --save
 
-	// npm offical site:www.npmjs.com
-	// npm registry:registry.npm.org/packageName
-	// go to package page:npm/im/packageName
+	//npm offical site:www.npmjs.com
+	//npm registry:registry.npm.org/packageName
+	//go to package page:npm/im/packageName
 
 	npm search(very slow)
 
@@ -101,8 +99,8 @@
 
 	3. publishing your packge
 		npm publish, npm info XXX, npm repo XXX, 
-	   	git tag 1.0.1 
-	   	git push --tags
+		git tag 1.0.1 
+		git push --tags
 
 	4. publishing an update
 		git add .
