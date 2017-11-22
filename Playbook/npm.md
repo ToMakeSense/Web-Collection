@@ -91,7 +91,7 @@
 		"start": "node index.js" 	
 		"uglify":"gulp compress" --->excute it in CLI:npm run uglify
 
-##Publishing your own package
+## Publishing your own package
 	1. setuping an NPM account
 		CLI: npm adduser
 
